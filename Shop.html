@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" ,
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js">
+    </script>
+    <link href="Shop.css" rel="stylesheet">
+    <style>
+        #maincontainer {
+           /* border: 5px solid blue;*/
+            display: flex;
+            margin-top: 20px;
+            justify-content: space-around;
+
+
+        }
+
+        #dropdown_menu {
+
+           /* border: 5px solid brown;*/
+        }
+
+        #table_main {
+            width: 1500px;
+           /* border: 5px solid blue;*/
+            display: flex;
+
+        }
+
+
+
+        #table_container {
+
+            width: 800px;
+            height: 200px;
+            /*border: 5px solid red;*/
+            margin-top: 75px;
+            padding-left: 200px;
+        }
+    </style>
+</head>
+
+<body>
+
+
+
+    <div class="container">
+        <div id="img_conatiner">
+            <img src="https://tse2.mm.bing.net/th?id=OIP.gdVASmjTBFAXqHNs9hPqWAHaHa&pid=Api&P=0&h=220" alt="logo"
+                height="50px" width="100px" />
+
+        </div>
+
+        <p>Get 10% off on first purchase:Use code-FirstBuy></p>
+
+
+        <div id="img_conatiner">
+            <img src="c:\Users\Nuthan\Downloads\basket.png" alt="logo" height="20px" width="20px" />
+            <hr>
+        </div>
+
+    </div>
+
+    <div id="maincontainer">
+        <div id="dropdown_menu">
+            <h4>Shop</h4>
+            <h5>Categories</h5>
+
+            <form action="/action_page.php">
+                <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                <label for="vehicle1"> Dresses and More</label><br>
+                <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+                <label for="vehicle2"> Family Combo</label><br>
+                <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+                <label for="vehicle3"> Kids wear</label><br>
+                <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+                <label for="vehicle3"> Men's wear</label><br>
+                <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+                <label for="vehicle3"> Wedding wear</label><br>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+        <div class="card text-bg-dark p-3" style="width: 18rem;">
+            <img src="https://sayyessarees.com/wp-content/uploads/2024/01/Polish_20230422_115700842-1-1.jpg"
+                class="card-img-top" alt="Saree" height="100px" width="1250px">
+            <div class="card-body">
+                <h5 class="card-title">Half and Half Saree</h5>
+                <h6>$150.00</h6>
+                <button type="button">Add To Cart</button>
+
+            </div>
+        </div>
+        <div class="card text-bg-dark p-3" style="width: 15rem;">
+            <img src="https://sayyessarees.com/wp-content/uploads/2024/04/ae12ba09-5e4e-4c83-a340-b06bd2797472.jpeg"
+                class="card-img-top" alt="Saree" height="100px" width="1250px">
+            <div class="card-body">
+                <h5 class="card-title">Organza</h5>
+                <h6>$150.00</h6>
+                <button type="button">Add To Cart</button>
+
+            </div>
+        </div>
+        <div class="card text-bg-dark p-3" style="width: 18rem;">
+            <img src="https://sayyessarees.com/wp-content/uploads/2024/04/IMG-20240424-WA0008.jpg" class="card-img-top"
+                alt="Saree" height="100px" width="1250px">
+            <div class="card-body">
+                <h5 class="card-title">Cotton Silk Sarees</h5>
+                <h6>$120.00</h6>
+                <button type="button">Add To Cart</button>
+
+            </div>
+        </div>
+    </div>
+    <div id="table_main">
+        <div id="table_container">
+            <table style="width:100%">
+                <tr>
+                    <th>Navigation</th>
+                    <th>Our Products</th>
+                    <th>Useful Links</th>
+                </tr>
+                <tr>
+                    <td>Home</td>
+                    <td>Readymade Sarees</td>
+                    <td>Privay Policy</td>
+                </tr>
+                <tr>
+                    <td>Shop</td>
+                    <td>HalfnHalf Sarees</td>
+                    <td>Terms and Condition</td>
+                </tr>
+                <td>Sales Product</td>
+                <td>Kidswear</td>
+                <td>Contact us</td>
+            </table>
+        </div>
+
+
+    </div>
+
+
+    </div>
+
+
+
+    <div id="navbar_container">
+        <div id="nav_container">
+            <nav class="navbar bg-dark border-bottom border-body" data-bs-theme="dark">
+                <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="#"></a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="file:///C:/Users/Nuthan/OneDrive/Desktop/Lasya/Perscholas/HTMl_Css/BootStrap/Website/Website.html">Home</a>
+                                </li>
+
+                                <li class="nav-item"></li>
+                                <a class="nav-link" href="#">Sales Product</a>
+                                </li>
+                                <li class="nav-item"></li>
+                                <a class="nav-link" href="#">Contact us</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="file:///C:/Users/Nuthan/OneDrive/Desktop/Lasya/Perscholas/HTMl_Css/BootStrap/Website/Shop.html" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        Shop
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <!--<div class="row row-cols-1 row-cols-md-3 g-4">
+                                            <div class="col">
+                                                <div class="card h-100">-->
+                                    
+                                        <li><a class="dropdown-item" href="file:///C:/Users/Nuthan/OneDrive/Desktop/Lasya/Perscholas/HTMl_Css/BootStrap/Website/Shop.html">Dresses</a></li>
+                                        <li><a class="dropdown-item" href="#">Sarees</a></li>
+                                        <li>
+                                            <hr class="dropdown-divider">
+                                        </li>
+                                        <li><a class="dropdown-item" href="#">Family Combo</a></li>
+                                        <li><a class="dropdown-item" href="#">Kids Wear</a></li>
+                                    </ul>
+                                </li>
+                                
+                            </ul>
+                            <form class="d-flex" role="search">
+                                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                                <button class="btn btn-outline-success" type="submit">Search</button>
+                            </form>
+                            
+
+                        </div>
+                    </div>
+                </nav>
+            </nav>
+
+        </div>
+        <div id="log_container">
+            <a class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover"
+                href="file:///C:/Users/Nuthan/OneDrive/Desktop/Lasya/Perscholas/HTMl_Css/BootStrap/Website/login.html">
+                LOGIN/REGISTER
+            </a>
+            <a class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover"
+                href="file:///C:/Users/Nuthan/OneDrive/Desktop/Lasya/Perscholas/HTMl_Css/BootStrap/Website/Shop.html">
+            Wishlist
+            </a>
+
+        </div>
+    </div>
+    
+</body>
+
+</html>
